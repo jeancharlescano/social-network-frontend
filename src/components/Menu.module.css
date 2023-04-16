@@ -1,0 +1,11 @@
+.MenuContainer {
+  position: fixed;
+  left: 0;
+  top: 56px;
+  width: 20%;
+  height: calc(100vh - 56px);
+  border-right: 1px solid #3d3d3d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

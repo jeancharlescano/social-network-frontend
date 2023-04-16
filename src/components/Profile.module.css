@@ -1,0 +1,16 @@
+.Container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: red;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

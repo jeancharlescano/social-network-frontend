@@ -1,0 +1,6 @@
+.Content {
+  margin: 0 20%;
+  display: flex;
+  margin-top: 56px;
+  overflow-y: auto;
+}
