@@ -9,3 +9,42 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.Title {
+  display: flex;
+  padding: 0 10px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #3d3d3d;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #3d3d3d;
+}
+
+.SearchIcon {
+  cursor: pointer;
+}
+
+.SearchInputContainer {
+  margin: 0;
+  height: 100%;
+  width: 125px;
+  display: flex;
+  align-items: center;
+}
+
+.SearchInputContainer input {
+  width: 100%;
+  height: 35%;
+  padding: 0 5px;
+  background-color: transparent;
+  transition: width 0.3s ease-in-out;
+  border: 1px solid #3d3d3d;
+  border-radius: 5px;
+  color: #3d3d3d;
+  font-size: 0.8rem;
+}
