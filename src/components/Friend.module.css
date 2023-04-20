@@ -1,0 +1,26 @@
+.Container {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ImgContainer {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+  margin-left: 25px;
+}

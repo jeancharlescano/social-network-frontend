@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "firstname": "John",
+    "lastname": "Doe",
+    "email": "johndoe@example.com",
+    "mobile": "5551234567",
+    "password": "secretpassword",
+    "dateofbirth": "1990-01-01",
+    "gender": "Male"
+  },
+  {
+    "id": 2,
+    "firstname": "Jane",
+    "lastname": "Doe",
+    "email": "janedoe@example.com",
+    "mobile": "5559876543",
+    "password": "topsecret",
+    "dateofbirth": "1995-06-15",
+    "gender": "Female"
+  },
+  {
+    "id": 3,
+    "firstname": "Bob",
+    "lastname": "Smith",
+    "email": "bobsmith@example.com",
+    "mobile": "5555555555",
+    "password": "password123",
+    "dateofbirth": "1985-02-28",
+    "gender": "Male"
+  },
+  {
+    "id": 4,
+    "firstname": "Alice",
+    "lastname": "Johnson",
+    "email": "alice.johnson@example.com",
+    "mobile": "5551112233",
+    "password": "mypassword",
+    "dateofbirth": "1987-11-12",
+    "gender": "Female"
+  },
+  {
+    "id": 5,
+    "firstname": "David",
+    "lastname": "Lee",
+    "email": "david.lee@example.com",
+    "mobile": "5557778899",
+    "password": "letmein",
+    "dateofbirth": "1992-08-23",
+    "gender": "Male"
+  },
+  {
+    "id": 6,
+    "firstname": "Emily",
+    "lastname": "Wilson",
+    "email": "emily.wilson@example.com",
+    "mobile": "5554445566",
+    "password": "abc123",
+    "dateofbirth": "1998-03-30",
+    "gender": "Female"
+  },
+  {
+    "id": 7,
+    "firstname": "Daniel",
+    "lastname": "Garcia",
+    "email": "daniel.garcia@example.com",
+    "mobile": "5559998877",
+    "password": "qwerty",
+    "dateofbirth": "1991-12-07",
+    "gender": "Male"
+  },
+  {
+    "id": 8,
+    "firstname": "Olivia",
+    "lastname": "Davis",
+    "email": "olivia.davis@example.com",
+    "mobile": "5552223344",
+    "password": "iloveyou",
+    "dateofbirth": "1989-04-18",
+    "gender": "Female"
+  },
+  {
+    "id": 9,
+    "firstname": "Ethan",
+    "lastname": "Wilson",
+    "email": "ethan.wilson@example.com",
+    "mobile": "5556667788",
+    "password": "monkey",
+    "dateofbirth": "1996-07-09",
+    "gender": "Male"
+  },
+  {
+    "id": 10,
+    "firstname": "Avery",
+    "lastname": "Jones",
+    "email": "avery.jones@example.com",
+    "mobile": "5555554444",
+    "password": "football",
+    "dateofbirth": "1994-02-14",
+    "gender": "Female"
+  },
+  {
+    "id": 11,
+    "firstname": "Benjamin",
+    "lastname": "Brown",
+    "email": "benjamin.brown@example.com",
+    "mobile": "5553334455",
+    "password": "baseball",
+    "dateofbirth": "1986-10-25",
+    "gender": "Male"
+  },
+  {
+    "id": 12,
+    "firstname": "Sophia",
+    "lastname": "Anderson",
+    "email": "sophia.anderson@example.com",
+    "mobile": "5557776655",
+    "password": "hockey",
+    "dateofbirth": "1993-05-11",
+    "gender": "Female"
+  },
+  {
+    "id": 13,
+    "firstname": "Olivia",
+    "lastname": "Williams",
+    "email": "olivia.williams@example.com",
+    "mobile": "0665412321",
+    "password": "jJ8rf^%&34fa",
+    "dateofbirth": "1988-03-19",
+    "gender": "Female"
+  },
+  {
+    "id": 14,
+    "firstname": "Isabella",
+    "lastname": "Garcia",
+    "email": "isabella.garcia@example.com",
+    "mobile": "5558889999",
+    "password": "hello123",
+    "dateofbirth": "1988-09-02",
+    "gender": "Female"
+  },
+  {
+    "id": 15,
+    "firstname": "William",
+    "lastname": "Clark",
+    "email": "william.clark@example.com",
+    "mobile": "5554446655",
+    "password": "welcome1",
+    "dateofbirth": "1997-01-21",
+    "gender": "Male"
+  },
+  {
+    "id": 16,
+    "firstname": "Mia",
+    "lastname": "Baker",
+    "email": "mia.baker@example.com",
+    "mobile": "5556665544",
+    "password": "123456",
+    "dateofbirth": "1999-06-18",
+    "gender": "Female"
+  },
+  {
+    "id": 17,
+    "firstname": "Liam",
+    "lastname": "Mitchell",
+    "email": "liam.mitchell@example.com",
+    "mobile": "5553337788",
+    "password": "letsgo",
+    "dateofbirth": "1990-03-14",
+    "gender": "Male"
+  },
+  {
+    "id": 18,
+    "firstname": "Chloe",
+    "lastname": "Parker",
+    "email": "chloe.parker@example.com",
+    "mobile": "5555559999",
+    "password": "password",
+    "dateofbirth": "1987-12-23",
+    "gender": "Female"
+  },
+  {
+    "id": 19,
+    "firstname": "James",
+    "lastname": "Adams",
+    "email": "james.adams@example.com",
+    "mobile": "5559993322",
+    "password": "letmein123",
+    "dateofbirth": "1995-09-16",
+    "gender": "Male"
+  },
+  {
+    "id": 20,
+    "firstname": "Grace",
+    "lastname": "Scott",
+    "email": "grace.scott@example.com",
+    "mobile": "5552224433",
+    "password": "123456789",
+    "dateofbirth": "1992-04-05",
+    "gender": "Female"
+  },
+  {
+    "id": 21,
+    "firstname": "Avery",
+    "lastname": "Lee",
+    "email": "avery.lee@example.com",
+    "mobile": "0669821134",
+    "password": "Gt4!4t&z21tK",
+    "dateofbirth": "1991-07-12",
+    "gender": "Non-binary"
+  },
+  {
+    "id": 22,
+    "firstname": "Isaac",
+    "lastname": "Hall",
+    "email": "isaac.hall@example.com",
+    "mobile": "0643321937",
+    "password": "V8r@5u5y1@5v",
+    "dateofbirth": "1993-01-25",
+    "gender": "Male"
+  },
+  {
+    "id": 23,
+    "firstname": "Madison",
+    "lastname": "Murphy",
+    "email": "madison.murphy@example.com",
+    "mobile": "0689154837",
+    "password": "rV1t#%b&7nYu",
+    "dateofbirth": "1986-09-08",
+    "gender": "Female"
+  },
+  {
+    "id": 24,
+    "firstname": "Ethan",
+    "lastname": "Wright",
+    "email": "ethan.wright@example.com",
+    "mobile": "0648129349",
+    "password": "sB7d%1s@4pFt",
+    "dateofbirth": "1994-12-17",
+    "gender": "Male"
+  },
+  {
+    "id": 25,
+    "firstname": "Evelyn",
+    "lastname": "Anderson",
+    "email": "evelyn.anderson@example.com",
+    "mobile": "0665162397",
+    "password": "fJ1^%c#5wBtD",
+    "dateofbirth": "1990-05-03",
+    "gender": "Female"
+  }
+]
