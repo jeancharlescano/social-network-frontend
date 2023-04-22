@@ -1,19 +1,51 @@
 import React from "react";
 import styles from "./Menu.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser, faUserGroup } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMessage,
+  faUser,
+  faUserGroup,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Menu = () => {
   return (
     <div className={styles.MenuContainer}>
       <div className={styles.Menu}>
         <div className={styles.Items}>
-          <FontAwesomeIcon icon={faUser} size="2xl" style={{ color: "black" }} />
-          <p className={styles.Text}>Profile Name</p>
+          <div className={styles.IconContainer}>
+            <FontAwesomeIcon
+              icon={faUser}
+              size="xl"
+              style={{ color: "black" }}
+            />
+          </div>
+          <div className={styles.TextContainer}>
+            <p className={styles.Text}>Profile Name</p>
+          </div>
         </div>
         <div className={styles.Items}>
-          <FontAwesomeIcon icon={faUserGroup} size="2xl" style={{ color: "black" }} />
-          <p className={styles.Text}>Amis</p>
+          <div className={styles.IconContainer}>
+            <FontAwesomeIcon
+              icon={faUserGroup}
+              size="xl"
+              style={{ color: "black" }}
+            />
+          </div>
+          <div className={styles.TextContainer}>
+            <p className={styles.Text}>Amis</p>
+          </div>
+        </div>
+        <div className={styles.Items}>
+          <div className={styles.IconContainer}>
+            <FontAwesomeIcon
+              icon={faMessage}
+              size="xl"
+              style={{ color: "black" }}
+            />
+          </div>
+          <div className={styles.TextContainer}>
+            <p className={styles.Text}>Messages</p>
+          </div>
         </div>
       </div>
     </div>

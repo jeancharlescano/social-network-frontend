@@ -1,10 +1,14 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .MenuContainer {
   position: fixed;
   left: 0;
   top: 56px;
   width: 18%;
   height: calc(100vh - 56px);
-  border-right: 1px solid #3d3d3d;
   display: flex;
 }
 
@@ -13,6 +17,7 @@
   width: 100%;
   justify-content: space-around;
   padding: 10px 0;
+  border-bottom: 1px solid #3d3d3d;
 }
 
 .Items {
@@ -31,13 +36,18 @@
   background-color: #c9c9c9;
 }
 
-p {
-  margin: 0;
-  padding: 0;
+.IconContainer {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.TextContainer {
+  width: 70%;
 }
 
 .Text {
   margin-left: 20px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }

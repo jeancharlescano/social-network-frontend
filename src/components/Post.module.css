@@ -1,0 +1,68 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  height: 250px;
+  width: 800px; 
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px 10px ;
+  overflow: hidden;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  width: 100%;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+}
+
+.ImgContainer {
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.PostData {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.Publisher {
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Publisher:hover {
+  text-decoration: underline;
+}
+
+.Date {
+    font-size: 0.7rem;
+    color: #a0a0a0;
+}
+
+.Content {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}

@@ -1,27 +1,10 @@
 import React from "react";
 import styles from "./PostList.module.css";
-
+import Post from "./Post";
 const PostList = () => {
   return (
     <div className={styles.PostContainer}>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
-      <p>titi</p>
+      <Post></Post>
     </div>
   );
 };
