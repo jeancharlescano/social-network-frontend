@@ -1,0 +1,62 @@
+h1 {
+  padding: 0;
+  margin: 0;
+}
+.ProfileDataContainer {
+  margin-top: 56px;
+  height: 70vh;
+  width: 100%;
+  background: rgb(226, 226, 226);
+  background: linear-gradient(
+    180deg,
+    rgb(194, 194, 194) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  box-shadow: 0 1px 20px #3d3d3d;
+  display: flex;
+  justify-content: center;
+}
+
+.Data {
+  width: 1250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Banner {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 0 0 15px 15px;
+}
+
+.UserData {
+  display: flex;
+
+  width: 90%;
+  height: 30%;
+}
+
+.UserImage {
+  border: 4px solid white;
+  margin-top: -30px;
+  height: 168px;
+  width: 168px;
+  background-color: red;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.TextDataContainer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 20px;
+}
+
+.FriendCounter {
+  color: #3d3d3d;
+  font-weight: 500;
+}
