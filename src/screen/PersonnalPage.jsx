@@ -19,9 +19,17 @@ const PersonnalPage = () => {
             />
             <div className={styles.TextDataContainer}>
               <h1>Profile Name</h1>
-              <p className={styles.FriendCounter}> XXX Amis</p>
+              <p className={styles.FriendCounter}>XXX Amis</p>
             </div>
           </div>
+          <nav className={styles.NavContainer}>
+            <ul className={styles.Nav}>
+              <li>Publications</li>
+              <li>Amis</li>
+              <li>Photos</li>
+              <li>A propos</li>
+            </ul>
+          </nav>
         </div>
       </div>
     </>
