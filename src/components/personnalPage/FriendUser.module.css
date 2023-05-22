@@ -1,0 +1,51 @@
+.Container {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 0 10px;
+}
+
+.InputContainer {
+  width: auto;
+  position: relative;
+}
+
+.SearchFriend {
+  padding: 2px 2px 2px 25px;
+  border: none;
+  outline: none;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.SearchFriend:hover {
+  background-color: #e3e3e3;
+}
+.SearchFriend:focus {
+  background-color: #e3e3e3;
+}
+
+.SearchIcon {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+
+.FriendsGrid {
+  min-height: 750px;
+  height: auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: yellow;
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+}

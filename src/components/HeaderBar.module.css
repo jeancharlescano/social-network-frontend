@@ -6,6 +6,7 @@
   height: 56px;
   background-color: #3d3d3d;
   display: flex;
+  z-index: 1;
 }
 
 .Left {

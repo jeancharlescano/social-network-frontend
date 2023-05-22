@@ -1,0 +1,14 @@
+.Container {
+  width: 250px;
+  height: 75px;
+  background-color: red;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.Container:hover {
+  transform: scale(102%);
+}

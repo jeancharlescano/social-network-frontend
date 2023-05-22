@@ -1,0 +1,14 @@
+.Container {
+  display: flex;
+}
+
+.LeftContainer {
+  width: 30%;
+}
+
+.RightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 70%;
+}
