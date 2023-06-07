@@ -4,17 +4,18 @@ import styles from "./PublicationUser.module.css";
 import Post from "../Post";
 import UserInfo from "./UserInfo";
 import NewPost from "../NewPost";
+
 const PublicationsUser = () => {
   return (
-    <div className={styles.Container}>
-      <div className={styles.LeftContainer}>
+    <main className={styles.Container}>
+      <section className={styles.LeftContainer}>
         <UserInfo />
-      </div>
-      <div className={styles.RightContainer}>
+      </section>
+      <section className={styles.RightContainer}>
         <NewPost />
         <Post />
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 

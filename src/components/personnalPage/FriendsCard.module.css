@@ -1,14 +1,45 @@
 .Container {
-  width: 250px;
-  height: 75px;
-  background-color: red;
-  cursor: pointer;
-  transition: all 0.2s;
+  width: 300px;
+  height: 85px;
+  background-color: #fff;
   display: flex;
   align-items: center;
   border-radius: 5px;
+  padding: 10px;
+  border: solid 1px #f0f0f0;
+  border-radius: 15px;
 }
 
-.Container:hover {
-  transform: scale(102%);
+.ProfilePic {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.fullname {
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+}
+
+.fullname:hover {
+  text-decoration: underline;
+}
+.commonFriend {
+  cursor: pointer;
+  color: grey;
+  font-size: smaller;
+}
+
+.commonFriend:hover {
+  text-decoration: underline;
 }

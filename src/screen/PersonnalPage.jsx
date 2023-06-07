@@ -7,7 +7,7 @@ import Profile from "../assets/img/profile.jpeg";
 
 import PublicationsUser from "../components/personnalPage/PublicationsUser";
 import FriendsUser from "../components/personnalPage/FriendsUser";
-import PicturesUser from "../components/personnalPage/PicturesUser";
+import AssetsUser from "../components/personnalPage/AssetsUser";
 import AboutUser from "../components/personnalPage/AboutUser";
 
 const PersonnalPage = () => {
@@ -63,7 +63,7 @@ const PersonnalPage = () => {
         <div className={styles.Topics}>
           {userInfo === 0 && <PublicationsUser />}
           {userInfo === 1 && <FriendsUser />}
-          {userInfo === 2 && <PicturesUser />}
+          {userInfo === 2 && <AssetsUser />}
           {userInfo === 3 && <AboutUser />}
         </div>
       </div>

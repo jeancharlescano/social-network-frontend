@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./UserInfo.module.css";
 const UserInfo = () => {
   return (
-    <div className={styles.Container}>
+    <aside className={styles.Container}>
       <h3>A propos</h3>
       <div className={styles.PersonnalInfo}>
         <h4>Bio</h4>
@@ -24,7 +24,7 @@ const UserInfo = () => {
           🥊 Boxe
         </p>
       </div>
-    </div>
+    </aside>
   );
 };
 

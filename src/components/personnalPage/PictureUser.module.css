@@ -1,0 +1,7 @@
+.Container {
+  height: 190px;
+  width: 190px;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: 5px;
+}
